@@ -1,0 +1,13 @@
+[Unit]
+Description=Boot Services Script
+After=docker.service
+
+[Service]
+Type=oneshot
+User=root
+
+WorkingDirectory=/opt/iombian-services
+ExecStart=/opt/iombian-services/boot-services-script.sh
+
+[Install]
+WantedBy=multi-user.target
