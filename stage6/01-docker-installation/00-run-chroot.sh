@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # Uninstall all conflicting packages
-for pkg in docker.io docker-doc docker-compose containerd runc; do apt-get remove $pkg; done
+#for pkg in docker.io docker-doc docker-compose containerd runc; do apt-get remove $pkg; done
 
 # Set up Docker's apt repository
 apt-get update
