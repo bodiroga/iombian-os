@@ -17,7 +17,7 @@ jobs:
           image-name: iombian
           release: bookworm
           pi-gen-release: IoMBian
-          pi-gen-version: arm64
+          pi-gen-version: 2024-07-04-raspios-bookworm
           username: iompi
           password: iompi
           hostname: iombian
